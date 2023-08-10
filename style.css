@@ -1,0 +1,89 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Geologica", sans-serif;
+}
+
+.container-form {
+  background-color: rgb(227, 241, 252);
+  width: 450px;
+  height: 500px;
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formulario {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 28px;
+  margin: 0 0 23px;
+}
+
+.box-input {
+  margin-bottom: 25px;
+}
+
+.box-input label {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.input-inset {
+  border: none;
+  border-radius: 5px;
+  width: 90%;
+  height: 30px;
+  padding: 0 5%;
+}
+
+.box-btn input {
+  width: 250px;
+  height: 25px;
+  background-color: rgb(148, 202, 247);
+
+  cursor: pointer;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+}
+
+.box-btn input:hover {
+  background-color: rgb(85, 176, 252);
+  font-weight: bold;
+}
+
+.preenchimento-valido {
+  border: 1.5px solid rgb(42, 255, 113);
+}
+
+.preenchimento-nao-valido {
+  border: 1.5px solid rgb(255, 42, 42);
+}
+
+.error-mensage {
+  font-size: 12px;
+  color: rgb(255, 42, 42);
+}
+
+.sucesso-mensage {
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  background-color: rgb(42, 255, 113);
+
+  margin-top: 15px;
+  padding: 5px;
+  border-radius: 5px;
+}

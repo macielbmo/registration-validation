@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercicio - Expressão Regulares</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./index.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geologica:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="container-form">
+      <form class="formulario">
+        <h1 class="title">Registre-se!</h1>
+
+        <div class="box-input">
+          <label for="name">Nome:</label>
+          <input
+            class="input-inset"
+            type="text"
+            id="name"
+            placeholder="digite seu nome"
+          />
+        </div>
+
+        <div class="box-input">
+          <label for="email">E-mail:</label>
+          <input
+            class="input-inset"
+            type="text"
+            name="email"
+            id="email"
+            placeholder="xx@xx.xx"
+          />
+          <span class="error-mensage" id="error-email"></span>
+        </div>
+
+        <div class="box-input">
+          <label for="senha">Senha:</label>
+          <input
+            class="input-inset"
+            type="password"
+            name="senha"
+            id="senha"
+            placeholder="digite sua senha"
+          />
+          <span class="error-mensage" id="error-senha"></span>
+        </div>
+
+        <div class="box-btn">
+          <input type="submit" name="submit" id="submit" />
+        </div>
+
+        <span id="sucesso-mensage"></span>
+      </form>
+    </section>
+  </body>
+</html>
